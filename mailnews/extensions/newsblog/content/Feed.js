@@ -300,8 +300,7 @@ Feed.prototype = {
     if (aFeed.downloadCallback) {
       aFeed.downloadCallback.downloaded(
         aFeed,
-        FeedUtils.kNewsBlogInvalidFeed,
-        true
+        FeedUtils.kNewsBlogInvalidFeed
       );
     }
 
